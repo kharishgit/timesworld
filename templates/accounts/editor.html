@@ -1,0 +1,17 @@
+{% extends 'base.html'%}
+{% block content%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimesWorld - Editor Dashboard</title>
+</head>
+<body>
+    <h1>Welcome,{{user}}! To The Editor's Page!</h1>
+    <p>Review and edit content to maintain high-quality standards. Contribute to the company's publications.</p>
+    <!-- Add a logout link -->
+    <a href="{% url 'logout' %}">Logout</a>
+</body>
+</html>
+{% endblock%}

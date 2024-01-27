@@ -1,0 +1,18 @@
+{% extends 'base.html'%}
+{% block content%}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimesWorld - Student Dashboard</title>
+</head>
+<body>
+    <h1>Welcome,{{user}}!!! To The  Student Page!</h1>
+    <p>Explore your educational resources and stay updated with the latest information.</p>
+    <!-- Add a logout link -->
+    <a href="{% url 'logout' %}">Logout</a>
+</body>
+</html>
+{% endblock%}
