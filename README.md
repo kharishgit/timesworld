@@ -37,7 +37,7 @@ TimesWorld Onboarding System is a web application designed to facilitate user re
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/timesworldonboarding.git
+   git clone https://github.com/kharishgit/timesworld.git
    cd timesworld-
 
  ## RUN the following commands
